@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Who is this for?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Who is this <span>for?</span></h1>
+    <p>Enter the name of the person you're making this for.</p>
+
+    <input type="text" id="nameInput" placeholder="Enter their name" />
+    <button onclick="goToPreview()">See Preview</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
